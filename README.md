@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+  forEach takes in an array and iterated through each element of it. .map takes is an array and does something to each element and returns an array.
+
 2. What is the difference between a function and a method?
+
+  a method is a function, but it's built into an object.
 
 3. What is closure?
 
+  it's basically a scope chain. It tells a function what variables it has access to based on a set of rules.
+
 4. Describe the four rules of the 'this' keyword.
 
+  1. window - console.log(this) selects everything in the window.
+  2. implicit - is when you are calling this inside of an object, so it implied that tthe this keyword belongs to the object that it's in.
+  3. explicit - is whne you directly use the call, bind, or apply key words to bind an object's attributes to a selected object.
+  4. new - is when you create a new object from a constructor function.
+
 5. Why do we need super() in an extended class?
+
+  super() tells the new object that it should take on the attributes of the object selected in the create Object extends OtherObject declaratiton
 
 ## Project Set up
 
