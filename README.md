@@ -42,10 +42,10 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-  1. window - console.log(this) selects everything in the window.
-  2. implicit - is when you are calling this inside of an object, so it implied that tthe this keyword belongs to the object that it's in.
-  3. explicit - is whne you directly use the call, bind, or apply key words to bind an object's attributes to a selected object.
-  4. new - is when you create a new object from a constructor function.
+  A. window - console.log(this) selects everything in the window.
+  B. implicit - is when you are calling this inside of an object, so it implied that tthe this keyword belongs to the object that it's in.
+  C. explicit - is whne you directly use the call, bind, or apply key words to bind an object's attributes to a selected object.
+  D. new - is when you create a new object from a constructor function.
 
 5. Why do we need super() in an extended class?
 
